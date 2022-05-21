@@ -1,11 +1,17 @@
-generar package.json
-npm init -y 
+# Cascaron de RestServer Basico
 
-dotenv configurar variables de entorno
+ver archivo package.json para instalar dependencias
 
-express configurar webserver
+ejemplo: generar package.json, ejecutar comando ``npm init -y``
 
-middleware es una funcion que se va a llamar cuando levantemos el webserver
+<br/>
 
+## Descricion de paquetes 
 
-cors protege nuestro servidor de una manera superficial
+1. dotenv -> proporciona la manera de configurar variables de entorno
+
+2. express -> brinda la configurarion del webserver
+
+3. middleware -> funcion que se va a llamar cuando levantemos el webserver
+
+4. cors -> protege nuestro servidor de una manera superficial
